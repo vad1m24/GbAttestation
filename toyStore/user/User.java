@@ -1,6 +1,6 @@
-package ToyStore.User;
+package toyStore.user;
 
-import ToyStore.Toys.Toys;
+import toyStore.toys.Toys;
 
 import java.io.*;
 import java.util.*;

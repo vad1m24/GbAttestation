@@ -1,6 +1,6 @@
-package ToyStore.Admin;
+package toyStore.admin;
 
-import ToyStore.Toys.*;
+import toyStore.toys.*;
 
 import java.util.InputMismatchException;
 import java.util.List;

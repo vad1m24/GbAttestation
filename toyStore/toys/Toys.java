@@ -1,4 +1,4 @@
-package ToyStore.Toys;
+package toyStore.toys;
 
 
 import java.util.InputMismatchException;

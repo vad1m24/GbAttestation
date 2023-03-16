@@ -1,8 +1,8 @@
-package ToyStore.Program;
+package toyStore.program;
 
-import ToyStore.Admin.Admin;
-import ToyStore.Toys.*;
-import ToyStore.User.User;
+import toyStore.admin.Admin;
+import toyStore.toys.*;
+import toyStore.user.User;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -38,7 +38,7 @@ public class Program {
             } else {
                 System.out.println("Проверьте вводимые значения. Допускаются лишь цифры 1 или 2.!");
             }
-        } catch (InputMismatchException e) { // Помеять exception для нормального вывода!
+        } catch (InputMismatchException e) {
             System.out.println("Проверьте вводимые значения. Допускаются лишь цифры 1 или 2...");
         }
         checkingAnswer();
@@ -48,6 +48,7 @@ public class Program {
     private void checkingAnswer() {
         try {
             System.out.println("Желаете продолжить? (y/n)");
+            userInput.nextLine();  // clears the input buffer
             String answer = userInput.next();
             if (Objects.equals(answer, "y")) {
                 startProgram();

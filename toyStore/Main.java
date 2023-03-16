@@ -1,6 +1,6 @@
-package ToyStore;
+package toyStore;
 
-import ToyStore.Program.Program;
+import toyStore.program.Program;
 
 public class Main {
 
